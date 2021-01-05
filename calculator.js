@@ -33,10 +33,10 @@ class Calculator {
       
     }
 
-    computeString(){
-        let computation = this.previousOperand + this.currentOperand
-        this.currentOperand = eval(computation)
-    }
+    // computeString(){
+    //     let computation = this.previousOperand + this.currentOperand
+    //     this.currentOperand = eval(computation)
+    // }
 
     compute(){
         let computation 
